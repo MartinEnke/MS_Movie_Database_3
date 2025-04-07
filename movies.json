@@ -1,0 +1,55 @@
+{
+    "Moon": {
+        "rating": 7.8,
+        "year": 2009,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTgzODgyNTQwOV5BMl5BanBnXkFtZTcwNzc0NTc0Mg@@._V1_SX300.jpg"
+    },
+    "The Animatrix": {
+        "rating": 9.0,
+        "year": 2003,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWRiODljNzUtZDkwOC00N2EwLTllMDAtOGQ4MmQ2YWY2MTBiXkEyXkFqcGdeQXVyNDQ0MTYzMDA@._V1_SX300.jpg",
+        "notes": "Inspirational"
+    },
+    "American Psycho": {
+        "rating": 7.6,
+        "year": 2000,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzBjM2I5ZjUtNmIzNy00OGNkLWIwZDMtOTAwYWUwMzA2YjdlXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "Being John Malkovich": {
+        "rating": 7.7,
+        "year": 1999,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDExODk1MTktNzRiYS00MWEyLTgyOWItYTI1OWY4NzI1NDM2XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "Pulp Fiction": {
+        "rating": 9.0,
+        "year": 1994,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_SX300.jpg",
+        "notes": "Style"
+    },
+    "Devs": {
+        "rating": 9.0,
+        "year": 2020,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDBmMGFiNGYtNDRjMS00NzJlLWE5YjctOTkzNDM0ODM5YTRlXkEyXkFqcGc@._V1_SX300.jpg",
+        "notes": "Amazingly well-done"
+    },
+    "Snatch": {
+        "rating": 8.2,
+        "year": 2000,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzk5NjJkMTQtN2IyNC00YWM5LTlhZmMtNGI3MWNhMTU1YTc4XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "Don't Look Up": {
+        "rating": 7.2,
+        "year": 2021,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjhhNWFjNzctYTJjOS00MDc0LThiNjItZmM0ZDVmMWViY2UzXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "Interstellar": {
+        "rating": 8.7,
+        "year": 2014,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    "The Big Lebowski": {
+        "rating": 8.1,
+        "year": 1998,
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2E3OWQ5OWYtYTRkMC00NjVjLWIzZDQtNmRmM2ZiYTIyYmYxXkEyXkFqcGc@._V1_SX300.jpg"
+    }
+}
