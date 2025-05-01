@@ -3,6 +3,7 @@
 A retro-tech-inspired movie management app with a command-line interface and website generation.  
 Built with Python and styled in a retro-sci-fi/techno aesthetic using HTML & CSS.
 
+![Alt Text](./banner.png)
 ---
 
 ## Features
@@ -29,33 +30,28 @@ Built with Python and styled in a retro-sci-fi/techno aesthetic using HTML & CSS
 ---
 
 ## Project Structure
-
+```
 project/
-│
-├── main.py                  # Entry point of the program
-├── movies.json              # Persistent storage
-│
-├── storage/                 # Handles all data persistence
-│   ├── istorage.py
-│   ├── storage_json.py
-│   └── storage_csv.py
-│
-├── services/                # External services like APIs
-│   └── omdb_api.py
-│
-├── features/                # Core app logic
-│   ├── movie_app.py         # Main class and command routing
-│   ├── movie_storage.py     # Logic for add/update/delete
-│   ├── process_movies.py    # Searching, sorting, filtering
-│   └── stats.py             # Statistics + histogram 
-│
-├── static/                  # Website resources
-│   └── index_template.html
-│   
-├── style.css              # color_text, input validation, etc.
-├── utils/  
-└── .env                     # API key (gitignored)
-
+  ├── main.py                     # Entry point of the program
+  ├── api/                        # API-related logic
+  │   ├── omdb_api.py             # External API logic
+  │   ├── movie_storage.py        # Logic for movie-related data persistence
+  ├── core/                       # Core app logic
+  │   ├── movie_app.py            # Main class and command routing
+  │   ├── process_movies.py       # Searching, sorting, filtering
+  │   ├── stats.py                # Statistics + histogram
+  ├── storage/                    # Data persistence logic
+  │   ├── storage_json.py         # Persistent storage in JSON
+  │   ├── storage_csv.py          # Persistent storage in CSV
+  ├── services/                   # External services like APIs
+  ├── static/                     # Static website resources
+  ├── templates/                  # HTML templates (if applicable)
+  ├── style.css                   # Website styles
+  ├── .env                        # API key (gitignored)
+  ├── .gitignore                  # Gitignore sensitive files and folders
+  ├── README.md                   # Project overview and setup instructions
+  ├── tests/                      # Unit and integration tests
+```
 
 ## Install requirements (if needed)
 pip install matplotlib requests dotenv
